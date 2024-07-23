@@ -9,7 +9,7 @@ export const Home = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            height: '86vh',
+            height: '90vh',
             width: '100%',
         }}
         >
