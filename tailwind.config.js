@@ -5,9 +5,17 @@ module.exports = {
     extend: {
       fontFamily: {
         "Anton" : ['Anton SC', 'sans-serif'],
-        "Kalnia" : ['Kalnia Glaze', 'serif']
+        "Kalnia" : ['Kalnia Glaze', 'serif'],
+        "Lato" : ['Lato', 'sans-serif']
         
-      }
+      },
+      backgroundImage: {
+        'fondo': "url('/src/assets/img/fondeo.jpg')",
+      },
+      colors: {
+        'azul': '#465EF4',
+    },
+
     },
 
     

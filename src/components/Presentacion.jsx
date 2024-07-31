@@ -1,4 +1,4 @@
-import yo from "../img/yop.png"
+import yo from "../assets/img/yop.png"
 
 export const Presentacion = () => {
     return (

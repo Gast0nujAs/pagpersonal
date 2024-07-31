@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className="footer mt-auto w-full h-[150px] bg-[#2b2b2b]">
         <div className='flex flex-row  pt-6 justify-center space-x-4'>
-            <a href="https://www.facebook.com/gazzlasflores?locale=es_LA" className=''>
+            <a target='_blank' rel='noreferrer noopener' href="https://www.facebook.com/gazzlasflores?locale=es_LA" className=''>
             <img src={svgFacebook} alt="Facebook" className="rounded-full hover:scale-125 
             hover:cursor-pointer hover:duration-300 hover:bg-[#3b5998]" />
             </a>
