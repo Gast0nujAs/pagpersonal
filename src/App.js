@@ -1,22 +1,20 @@
 import { Header } from "./components/Header";
-import { Home } from "./components/Home";
-import { Nosotros } from "./components/Nosotros";
 import { Footer } from "./components/Footer";
-import { Habilidades } from "./components/Habilidades";
-import { Condiciones } from "./components/Condiciones";
+import { Frame } from "./components/Frame";
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <Home />
-      <Nosotros />
-      <Condiciones />
-      <Habilidades />
-      
+      <Routes>
+        <Route path="/" element={<Frame />} />
+        <Route path="/nosotros" element={<Frame />} />
+        <Route path="/condiciones" element={<Frame />} />
+        <Route path="/desenvolver" element={<Frame />} />
+      </Routes>
       <Footer />
-
-    </div>
+    </BrowserRouter>
   );
 }
 

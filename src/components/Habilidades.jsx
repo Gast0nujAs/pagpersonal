@@ -4,13 +4,13 @@ import html from "../assets/img/html-5.png";
 import js from "../assets/img/js.png";
 import react from "../assets/img/react-or.png";
 import sql from "../assets/img/servidor-sql.png"    ;
-import mysql from "../assets/img/mysql.png"    ;
+import mysql from "../assets/img/figma.png"    ;
 import node from "../assets/img/nodejs.png"    ;
 
 
 export const Habilidades = () => {
   return (
-    <div className='flex grid grid-cols-7 pt-16 px-20 text-center justify-center pb-20 mx-10'>
+    <div className='flex grid grid-cols-7 pt-16 px-20 text-center justify-center pb-10 mx-10'>
 
         <div>
             <img src={html} alt="html" className="w-1/2 border-r-2 pr-6" />
@@ -37,7 +37,7 @@ export const Habilidades = () => {
             
         </div>
         <div>
-            <img src={mysql} alt="" className='w-1/2 ' />
+            <img src={mysql} alt="" className='w-[70px] ' />
         </div>
 
 

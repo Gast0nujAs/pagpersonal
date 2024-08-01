@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import animations from '@midudev/tailwind-animations'
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
@@ -14,11 +15,13 @@ module.exports = {
       },
       colors: {
         'azul': '#465EF4',
+        'azul2' : '#0592EB',
     },
 
     },
+    
 
     
   },
-  plugins: [],
+  plugins: [animations],
 }
