@@ -1,7 +1,10 @@
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Frame } from "./components/Frame";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Contacto } from "./pages/Contacto";
+import { Services } from "./pages/Services";
+
 
 function App() {
   return (
@@ -9,9 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Frame />} />
-        <Route path="/nosotros" element={<Frame />} />
-        <Route path="/condiciones" element={<Frame />} />
-        <Route path="/desenvolver" element={<Frame />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contacto" element={<Contacto />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -3,7 +3,7 @@ import { Presentacion } from "../components/Presentacion.jsx"
 export const Home = () => {
     return (
         <div
-        className="flex flex-col pt-20"
+        className="flex flex-col pt-20 shadow-xl"
         style={{
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
