@@ -2,7 +2,7 @@
 
 export const Textnosotros = () => {
   return (
-    <div className='flex flex-col text-center justify-center w-[600px] font-Lato font-semibold text-[#08011F]'>
+    <div className='flex flex-col text-center justify-center md:w-[600px] sm:w-[300px] sm:mx-auto md:mx-0 font-Lato font-semibold text-[#08011F]'>
         <p className="text-lg py-4">
           Somos una pequeña empresa que amamos lo que hacemos, con profesionalismo y compromiso.  
         </p>

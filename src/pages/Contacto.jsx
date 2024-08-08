@@ -1,28 +1,46 @@
-import React from 'react'
+import React , { useRef } from 'react'
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 import svgFacebook from "../assets/svg/icons8-facebook-nuevo.svg"
 import svgInstagram from "../assets/svg/icons8-instagram.svg"
 import svgLinkedin from "../assets/svg/icons8-linkedin.svg"
 import svgWsp from "../assets/svg/icons8-whatsapp.svg"
+import emailjs from '@emailjs/browser';
+
 
 
 
 export const Contacto = () => {
+    const form = useRef();
+    
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(form)
+    const serviceID = "service_xsu6yum"
+    const templateID = "template_7bbn4nu"
+    const apiKey = "yBLYWZSsGn-5VB952"
+    emailjs.sendForm(serviceID, templateID, form.current, apiKey)
+      .then((result) => {
+        console.log(result.text);
+        alert("Enviado, Aguarde su respuesta.")
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
     return (
-        <div className='flex flex-cols-2 '>
-            <div className='bg-gradient-to-b from-[#000000] from-%40 to-[#B0AFF9] to-%100 w-1/2 h-[91vh]'>
-                <h2 className='text-center pt-12 mt-10 text-3xl font-Lato font-semibold mx-16 text-white pb-6'>Comunicate con nosotros y pedi tu presupuesto sin cargo!</h2>
-                <div className='flex  justify-center gap-16 pt-10'>
+        <div className='md:flex md:flex-cols-2 '>
+            <div className='bg-gradient-to-b from-[#000000] from-%40 to-[#B0AFF9] to-%100 md:w-1/2 sm:w-full h-[91vh]'>
+                <h2 className='text-center pt-12 sm:text-2xl md:mt-10 md:text-3xl font-Lato font-semibold mx-16 text-white pb-6'>Comunicate con nosotros y pedi tu presupuesto sin cargo!</h2>
+                <div className='md:flex  justify-center gap-16 pt-10'>
                     <div>
 
                         <MdOutlineMailOutline className='text-5xl text-azul2 justify-center mx-auto' />
-                        <span className='pt-2 text-xl text-white'>info@gastondev.com</span>
+                        <span className='pt-2 text-xl sm:mx-24 sm:mb-6 md:mb-0 md:mx-0 text-white'>info@gastondev.com</span>
                     </div>
                     <div>
 
-                        <IoMdContact className='text-5xl text-azul2 mx-auto' />
-                        <span className='pt-2 text-xl text-white'>+54 9 351 254-6077</span>
+                        <IoMdContact className='text-5xl text-azul2 mx-auto sm:mt-6 md:mt-0' />
+                        <span className='pt-2 text-xl sm:mx-24 sm:mb-6 md:mb-0 md:mx-0 text-white'>+54 9 351 254-6077</span>
                     </div>
                     </div>
                     <div className='space-x-6 flex justify-center mt-20'>
@@ -45,9 +63,9 @@ export const Contacto = () => {
                     </div>
                     <p className='text-center pt-6 text-xl mx-20  mt-10 text-black font-semibold font-Lato'>Desde Cordoba, Argentina para todo el mundo.</p>
             </div>
-            <div className='w-1/2 h-[91vh] '>
-                <p className='text-center pt-6 text-xl mx-20 text-azul2 font-Lato'>Completa nuestro formulario y en la brevedad estaremos comunicandonos.</p>
-                <form action="" className='mx-20 pt-6 mt-10 pb-10 mb-6 px-6 border-2 justify-center'>
+            <div className='md:w-1/2 h-[91vh] '>
+                <p className='text-center pt-6 text-xl sm:mx-6 md:mx-20 text-azul2 font-Lato'>Completa nuestro formulario y en la brevedad estaremos comunicandonos.</p>
+                <form action="" ref={form} onSubmit={sendEmail} className='sm:mx-6 md:mx-20 pt-6 mt-10 pb-10 mb-6 px-6 border-2 justify-center'>
 
                     <div className='grid grid-cols-1 gap-y-2 gap-x-4 font-Space'>
                         <label name="name">Name:</label>

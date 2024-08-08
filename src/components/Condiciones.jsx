@@ -5,18 +5,18 @@ import soporte from "../assets/img/apoyo-tecnico.png";
 
 export const Condiciones = () => {
   return (
-    <div className='flex flex-row  pb-10 space-around mx-16'>
-        <div className='flex border border-[#E06B1A] w-[500px] h-[150px] px-20 mx-auto p-2'>
-            <img src={garantia} alt="" className='w-[130px]'/>
-            <p className='pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Garantizamos la mejor experiencia y interaccion con el usuario</p>
+    <div className='flex md:flex-row sm:flex-col pb-10 space-around md:mx-16 sm:mx-6 sm:space-y-8 md:space-y-0'>
+        <div className='flex border border-[#E06B1A] sm:w-[300px] md:w-[500px] h-[150px] sm:px-10 md:px-20 mx-auto p-2'>
+            <img src={garantia} alt="" className='sm:w-[100px] md:w-[130px]'/>
+            <p className='md:pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Garantizamos la mejor experiencia y interaccion con el usuario</p>
         </div>
-        <div className='flex border border-[#E06B1A] w-[500px] h-[150px] px-20 mx-auto p-2'>
-            <img src={seguridad} alt="" className='w-[130px] '/>
-            <p className='pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Te ofrecemos un sitio seguro y confiable</p>
+        <div className='flex border border-[#E06B1A] sm:w-[300px] md:w-[500px] h-[150px] sm:px-10 md:px-20 mx-auto p-2'>
+            <img src={seguridad} alt="" className='sm:w-[100px] md:w-[130px] '/>
+            <p className='md:pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Te ofrecemos un sitio seguro y confiable</p>
         </div>
-        <div className='flex border border-[#E06B1A] w-[500px] h-[150px] px-20 mx-auto p-2'>
-            <img src={soporte} alt="" className='w-[100px] h-[120px] pt-4'/>
-            <p className='pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Estamos siempre cuidando tu sistema! Nuestro soporte es mes a mes</p>
+        <div className='flex border border-[#E06B1A] sm:w-[300px] md:w-[500px] md:h-[150px] sm:px-10 md:px-20 mx-auto p-2'>
+            <img src={soporte} alt="" className='md:w-[100px] md:h-[120px] sm:h-[100px] pt-4'/>
+            <p className='sm:pt-0 sm:mb-2 md:pt-4 pl-6 font-semibold font-Lato text-[#969B8B]'>Estamos siempre conectados! Nuestro soporte es mes a mes</p>
         </div>
     </div>
   )

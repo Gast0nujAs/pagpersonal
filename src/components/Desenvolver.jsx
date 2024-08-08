@@ -7,7 +7,7 @@ export const Desenvolver = () => {
             <div className='text-center pt-10 text-3xl font-Anton text-[#E06B1A] pb-6 font-bold'>
                 <h3>¿Como nos desenvolvemos?</h3>
             </div>
-            <div className='flex flex-cols-4 justify-center pt-10 pb-10  mx-auto'>
+            <div className='sm:flex sm:flex-col sm:space-y-8 lg:space-y-0 lg:grid lg:grid-cols-4 justify-center pt-10 pb-10  mx-auto'>
                 <div className='bg-gradient-to-t from-[#000000] from-%40 to-[#B0AFF9] to-%100 mx-16 
                 rounded-lg p-4 hover:cursor-pointer hover:animate-pop shadow-2xl shadow-orange-300'>
                     <h4 className='text-center text-xl font-bold text-[#E06B1A] pb-4'>Analisis de Mercado</h4>

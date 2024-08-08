@@ -17,6 +17,12 @@ module.exports = {
         'azul': '#465EF4',
         'azul2' : '#0592EB',
     },
+    screens: {
+      'sm': '360px',
+      'md': '668px',
+      'lg': '970px',
+      'xl': '1440px',
+    },
 
     },
     
