@@ -3,7 +3,7 @@ import { Presentacion } from "../components/Presentacion.jsx"
 export const Home = () => {
     return (
         <div
-        className="flex flex-col pt-20 shadow-xl"
+        className="flex flex-col sm:pt-14 md:pt-20 shadow-xl"
         style={{
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
@@ -14,10 +14,10 @@ export const Home = () => {
         }}
         >
             <h1 className="sm:text-3xl md:text-4xl text-white text-center font-Anton hover:text-azul2 hover:animate-flip-x hover:cursor-pointer">Gaston Dev</h1>
-            <span className="text-white text-center items-center justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-5">
+            <span className="text-white text-center items-center sm:mx-4 md:mx-0 justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-5">
                 Somos una pequeña empresa de desarrollo comandada por Gaston Hernandez y detras, un excelente y profesional equipo.
             </span>
-            <p className="text-white text-center items-center justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-4">
+            <p className="text-white text-center items-center sm:mx-4 md:mx-0 justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-4">
                 Estamos preparados para llevar tu negocio a lo mas alto!
                 </p>
 

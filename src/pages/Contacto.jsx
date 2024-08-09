@@ -40,10 +40,10 @@ export const Contacto = () => {
                     <div>
 
                         <IoMdContact className='text-5xl text-azul2 mx-auto sm:mt-6 md:mt-0' />
-                        <span className='pt-2 text-xl sm:mx-24 sm:mb-6 md:mb-0 md:mx-0 text-white'>+54 9 351 254-6077</span>
+                        <span className='pt-2 text-xl sm:mx-24 sm:mb-6 md:mb-0 md:mx-0 text-white'>+54 351 254-6077</span>
                     </div>
                     </div>
-                    <div className='space-x-6 flex justify-center mt-20'>
+                    <div className='space-x-6 flex justify-center mt-10'>
                         <a target='_blank' rel='noreferrer noopener' href="https://www.facebook.com/gazzlasflores?locale=es_LA" className=''>
                             <img src={svgFacebook} alt="Facebook" className="rounded-full hover:scale-125 
             hover:cursor-pointer hover:duration-300 hover:bg-[#3b5998] w-10" />
