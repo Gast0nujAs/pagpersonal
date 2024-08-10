@@ -14,36 +14,38 @@ export const Navbar = () => {
   const content =
     <>
       <ul className={`${open ? "flex" : "hidden"} 
-     flex-col text-center block absolute transition mt-10 text-center text-2xl pt-20 space-y-6 left-0 text-white w-full h-[100vh]  
-     bg-gradient-to-t from-[#000000] from-%80 to-[#6665ba] to-%100  md:hidden`}>
-        <Link to='/'>
-        <li onClick={() => setOpen(!open)}
-          className="
+     flex-col text-center  block absolute transition mt-10 text-center text-2xl pt-20 space-y-6 left-0 text-white w-full h-[100vh]  
+     bg-gradient-to-b from-[#000000] from-%80 to-[#6665ba] to-%100  md:hidden`}>
+        
+          <Link to='/'>
+            <li onClick={() => setOpen(!open)}
+              className="
+       hover:text-azul2  hover:scale-125  hover:cursor-pointer hover:transition mt-14">
+
+              Home
+            </li>
+
+          </Link>
+
+          <Link to='/services'>
+            <li onClick={() => setOpen(!open)}
+              className="
        hover:text-azul2  hover:scale-125  hover:cursor-pointer hover:transition ">
 
-          Home
-        </li>
-        
-        </Link>
-        
-        <Link to='/services'>
-        <li onClick={() => setOpen(!open)}
-          className="
+              Services
+            </li>
+
+          </Link>
+          <Link to='/contacto'>
+            <li onClick={() => setOpen(!open)}
+              className="
        hover:text-azul2  hover:scale-125  hover:cursor-pointer hover:transition ">
 
-          Services
-        </li>
-        
-        </Link>
-        <Link to='/contacto'>
-        <li onClick={() => setOpen(!open)}
-          className="
-       hover:text-azul2  hover:scale-125  hover:cursor-pointer hover:transition ">
+              Contact
+            </li>
 
-          Contact
-        </li>
+          </Link>
         
-        </Link>
       </ul>
     </>
 
@@ -62,7 +64,7 @@ export const Navbar = () => {
         {open && content}
       </div>
       <button className="md:hidden fixed top-6 right-10 justify-center items-center transition text-white  " onClick={handleClick} >
-        {open ? <Hamburger color='white'  toggled={open} toggle={setOpen} /> : <Hamburger color='white' toggled={open} toggle={setOpen}/>}
+        {open ? <Hamburger color='white' toggled={open} toggle={setOpen} /> : <Hamburger color='white' toggled={open} toggle={setOpen} />}
       </button>
     </nav>
   )

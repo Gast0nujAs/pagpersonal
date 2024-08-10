@@ -28,7 +28,7 @@ export const Contacto = () => {
       });
   };
     return (
-        <div className='md:flex md:flex-cols-2 '>
+        <div className='md:flex md:flex-cols-2 mb-20 md:mb-0'>
             <div className='bg-gradient-to-b from-[#000000] from-%40 to-[#B0AFF9] to-%100 md:w-1/2 sm:w-full h-[91vh]'>
                 <h2 className='text-center pt-12 sm:text-2xl md:mt-10 md:text-3xl font-Lato font-semibold mx-16 text-white pb-6'>Comunicate con nosotros y pedi tu presupuesto sin cargo!</h2>
                 <div className='md:flex  justify-center gap-16 pt-10'>
@@ -61,11 +61,11 @@ export const Contacto = () => {
             hover:cursor-pointer hover:duration-300 hover:bg-[#25D366] w-10" />
                         </a>
                     </div>
-                    <p className='text-center pt-6 text-xl mx-20  mt-10 text-black font-semibold font-Lato'>Desde Cordoba, Argentina para todo el mundo.</p>
+                    <p className='text-center md:pt-6 text-xl mx-20  mt-10 text-black font-semibold font-Lato'>Desde Cordoba, Argentina para todo el mundo.</p>
             </div>
             <div className='md:w-1/2 h-[91vh] '>
                 <p className='text-center pt-6 text-xl sm:mx-6 md:mx-20 text-azul2 font-Lato'>Completa nuestro formulario y en la brevedad estaremos comunicandonos.</p>
-                <form action="" ref={form} onSubmit={sendEmail} className='sm:mx-6 md:mx-20 pt-6 mt-10 pb-10 mb-6 px-6 border-2 justify-center'>
+                <form action="" ref={form} onSubmit={sendEmail} className='sm:mx-6 md:mx-20 pt-6 mt-10 pb-10 mb-6 lg:h-2/3 lg:space-y-6 px-6 border-2 justify-center'>
 
                     <div className='grid grid-cols-1 gap-y-2 gap-x-4 font-Space'>
                         <label name="name">Name:</label>
