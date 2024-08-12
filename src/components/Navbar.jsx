@@ -13,9 +13,9 @@ export const Navbar = () => {
   };
   const content =
     <>
-      <ul className={`${open ? "flex" : "hidden"} 
+      <ul className={`${open ? "flex" : "hidden" } 
      flex-col text-center  block absolute transition mt-10 text-center text-2xl pt-20 space-y-6 left-0 text-white w-full h-[100vh]  
-     bg-gradient-to-b from-[#000000] from-%80 to-[#6665ba] to-%100  md:hidden`}>
+     bg-gradient-to-b from-[#000000] from-%80 to-[#6665ba] to-%100  md:hidden animate-fade-in-down`}>
         
           <Link to='/'>
             <li onClick={() => setOpen(!open)}

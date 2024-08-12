@@ -10,7 +10,7 @@ export const Services = () => {
             <h1 className='text-center sm:text-2xl sm:mx-6 md:mx-0 md:text-3xl font-Lato font-semibold uppercase mt-10 text-slate-800'>
                 Soluciones digitales para tu proyecto o empresa.
             </h1>
-            <div className='md:flex sm:mt-0 md:mt-20 mx-10 md:justify-evenly mb-10 border-b-2 border-slate-200'>
+            <div className='md:flex sm:mt-0 md:mt-20 mx-10 md:justify-evenly mb-10 border-b-2 border-slate-200 '>
                 <div className='md:w-1/2 pt-6 space-y-4 space-x-4'>
                     <h3 className='text-center sm:text-2xl sm:pb-2 md:pb-0 md:text-3xl font-Lato font-semibold  mt-10 text-azul2'>Diseño Web | Responsive Design</h3>
                     <p className='text-center text-lg font-Lato font-semibold md:mt-10 sm:pb-10 md:mb-0 text-slate-800 px-6'>
