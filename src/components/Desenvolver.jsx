@@ -18,7 +18,7 @@ export const Desenvolver = () => {
                 </div>
                 <div className='shadow-2xl shadow-orange-300 bg-gradient-to-t from-[#000000] from-%40 to-[#B0AFF9] to-%100 mx-16 rounded-lg p-4  hover:cursor-pointer hover:animate-pop'>
                     <h4 className='text-center text-xl font-bold text-[#E06B1A] pb-4 '>Diseño Grafico</h4>
-                    <p className='font-Lato text-lg text-center font-semibold text-white'>Contamos con experencia y personal excelente en el area de Disenio Grafico
+                    <p className='font-Lato text-lg text-center font-semibold text-white'>Contamos con experencia y personal excelente en el area de Diseño Grafico
                         para poder diseñar interfaces atractivas, funcionales y responsivas.
                     </p>
                 </div>

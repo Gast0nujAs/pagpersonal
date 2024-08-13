@@ -13,12 +13,15 @@ export const Home = () => {
             width: '100%',
         }}
         >
-            <h1 className="sm:text-3xl md:text-4xl text-white text-center font-Anton hover:text-azul2 hover:animate-flip-x hover:cursor-pointer">Gaston Dev</h1>
-            <span className="text-white text-center items-center sm:mx-4 md:mx-0 justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-5">
-                Somos una pequeña empresa de desarrollo comandada por Gaston Hernandez y detras, un excelente y profesional equipo.
+            <h1 className="sm:text-3xl md:text-4xl text-white text-center font-Anton hover:text-azul2 hover:animate-flip-x hover:cursor-pointer">
+                gastoncode
+            </h1>
+            <span className="text-white text-center shadow-xl items-center sm:mx-4 md:mx-0 justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-5">
+                Somos una empresa de Desarrollo de Software 
+                fundada por Gaston Hernandez junto a un amplio, sofisticado y profesional equipo
             </span>
-            <p className="text-white text-center items-center sm:mx-4 md:mx-0 justify-center font-Lato font-semibold sm:text-lg md:text-xl pt-4">
-                Estamos preparados para llevar tu negocio a lo mas alto!
+            <p className="text-white text-center items-center sm:mx-4 md:mx-0 justify-center font-Lato font-bold sm:text-lg md:text-xl pt-4">
+                Estamos listos para llevar tu negocio a lo mas alto!
                 </p>
 
             <Presentacion />

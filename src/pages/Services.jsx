@@ -20,14 +20,14 @@ export const Services = () => {
                     </p>
                 </div>
                 <div>
-                    <img src={responsiveImg} alt="Responsive Web" className='sm:w-[300px] sm:h-[250px] sm:mx-auto sm:mb-10
+                    <img src={responsiveImg} alt="Diseño Web | Responsive Web" className='sm:w-[300px] sm:h-[250px] sm:mx-auto sm:mb-10
                     md:space-x-10 md:w-[500px] md:h-[400px] mb-10 mx-10 
                     shadow-xl hover:shadow-2xl hover:scale-105 hover:cursor-pointer hover:duration-300 border-b-4 border-azul2' />
                 </div>
             </div>
             <div className='md:flex md:flex-row-reverse md:justify-evenly mx-10 md:mr-26 mb-10 border-b-2 border-slate-200'>
 
-                <div className='md:w-1/2 pt-6 space-y-4 space-x-4'>
+                <div className='md:w-1/2 pt-6 space-y-4 space-x-4 md:mt-10'>
                     <h3 className='text-center sm:text-2xl sm:pb-2 md:pb-0 md:text-3xl font-Lato font-semibold  mt-10 text-azul2'>Tienda Online | E-COMMERCE</h3>
                     <p className='text-center text-lg font-Lato font-semibold mt-10 text-slate-800 px-6'>
                         Lleva tu negocio al mundo digital, con gran alcance y estructura,
@@ -37,7 +37,7 @@ export const Services = () => {
                     </p>
                 </div>
                 <div>
-                    <img src={ecommerceImg} alt="" className='sm:w-[300px] sm:mt-10 sm:h-[250px] sm:mx-auto
+                    <img src={ecommerceImg} alt="Sistema E-Commerce" className='sm:w-[300px] sm:mt-10 sm:h-[250px] sm:mx-auto
                      md:w-[500px] md:h-[400px]  mb-10  mx-16 
                     shadow-xl hover:shadow-2xl hover:scale-105 hover:cursor-pointer hover:duration-300 border-b-4 border-azul2' />
                 </div>
@@ -53,7 +53,7 @@ export const Services = () => {
                     </p>
                 </div>
                 <div>
-                    <img src={softwareImg} alt="Responsive Web" className='sm:w-[300px] sm:mt-10 sm:h-[250px] sm:mx-auto md:w-[500px] md:h-[400px]  mx-10
+                    <img src={softwareImg} alt="Sistema CRUD Software" className='sm:w-[300px] sm:mt-10 sm:h-[250px] sm:mx-auto md:w-[500px] md:h-[400px]  mx-10
                     shadow-xl hover:shadow-2xl hover:scale-105 hover:cursor-pointer hover:duration-300 border-b-4 border-azul2' />
                 </div>
                 
