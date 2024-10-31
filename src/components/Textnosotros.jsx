@@ -8,7 +8,7 @@ export const Textnosotros = () => {
         </p>
         <p className="text-lg py-4">
           Estamos preparados para diseñar, preparar y crear tu propio E-COMMERCE, Pagina Web
-          o Aplicacion, con posicionamiento en Google y buen alcanze al publico.
+          o Aplicacion, con posicionamiento en Google y buen alcance al publico.
         </p>
         <p className="text-lg py-4">
           Nos desenvolvemos en JavaScript, usamos librerias como ReactJS y NextJS, manejamos ExpressJs
